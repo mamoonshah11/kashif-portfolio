@@ -1,0 +1,12 @@
+# Ignore local raw work directory (media is served through public/projects-media)
+3d work
+
+# Ignore excluded large non-project raw files
+public/projects-media/Million dollar baby/Forever - Anno Domini Beats.mp4
+public/projects-media/Other Projects/Tutorial_(2).avi
+
+# Ignore local build output and node_modules
+dist
+node_modules
+scripts
+*.bak
