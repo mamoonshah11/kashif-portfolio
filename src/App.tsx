@@ -11,7 +11,7 @@ import { ContactPage } from './pages/ContactPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-[#030712] text-white font-sans antialiased selection:bg-sky-500 selection:text-black">
         <Header />
