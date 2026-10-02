@@ -16,6 +16,7 @@ import {
   MapPin
 } from 'lucide-react';
 import type { CommissionFormData } from '../types';
+import { getMediaUrl } from '../utils/media';
 
 export const ContactPage = () => {
   const location = useLocation();
@@ -250,7 +251,7 @@ export const ContactPage = () => {
 
                 {/* Direct CV Download Link in channels */}
                 <a
-                  href="/Kashif_Ullah_Jan_CV.pdf"
+                  href={getMediaUrl('/Kashif_Ullah_Jan_CV.pdf')}
                   download="Kashif_Ullah_Jan_CV.pdf"
                   className="flex items-center justify-between p-3.5 rounded-2xl bg-sky-950/50 hover:bg-sky-900/60 border border-sky-500/30 text-sky-200 transition-all group"
                 >

@@ -13,6 +13,7 @@ import {
   Sparkles,
   Download
 } from 'lucide-react';
+import { getMediaUrl } from '../utils/media';
 
 interface ProjectMediaSliderProps {
   media: ProjectMediaItem[];
@@ -197,7 +198,7 @@ export const ProjectMediaSlider = ({
 
           {/* Direct Open Link */}
           <a
-            href={currentItem.url}
+            href={getMediaUrl(currentItem.url)}
             target="_blank"
             rel="noopener noreferrer"
             className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors"
@@ -218,7 +219,7 @@ export const ProjectMediaSlider = ({
         {currentItem.type === 'image' ? (
           <img
             key={currentItem.id}
-            src={currentItem.url}
+            src={getMediaUrl(currentItem.url)}
             alt={currentItem.caption || currentItem.name}
             className="w-full h-full object-contain animate-in fade-in zoom-in-95 duration-200"
             loading="eager"
@@ -229,7 +230,7 @@ export const ProjectMediaSlider = ({
               <video
                 key={currentItem.id}
                 ref={videoRef}
-                src={currentItem.url}
+                src={getMediaUrl(currentItem.url)}
                 controls
                 playsInline
                 autoPlay={false}
@@ -252,7 +253,7 @@ export const ProjectMediaSlider = ({
                 </div>
                 <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-2">
                   <a
-                    href={currentItem.url}
+                    href={getMediaUrl(currentItem.url)}
                     download
                     className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold shadow-md transition-all"
                   >
@@ -260,7 +261,7 @@ export const ProjectMediaSlider = ({
                     <span>Download Master .{currentItem.extension.toUpperCase()}</span>
                   </a>
                   <a
-                    href={currentItem.url}
+                    href={getMediaUrl(currentItem.url)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition-all"
@@ -347,7 +348,7 @@ export const ProjectMediaSlider = ({
                 >
                   {item.type === 'image' ? (
                     <img
-                      src={item.url}
+                      src={getMediaUrl(item.url)}
                       alt={item.name}
                       className="w-full h-full object-cover"
                       loading="lazy"
@@ -355,7 +356,7 @@ export const ProjectMediaSlider = ({
                   ) : (
                     <div className="w-full h-full bg-slate-800 flex items-center justify-center relative">
                       <video
-                        src={`${item.url}#t=0.5`}
+                        src={`${getMediaUrl(item.url)}#t=0.5`}
                         preload="metadata"
                         className="w-full h-full object-cover"
                       />

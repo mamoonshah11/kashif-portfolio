@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 import { ArrowRight, Menu, X, FileDown } from 'lucide-react';
+import { getMediaUrl } from '../utils/media';
 
 export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -86,7 +87,7 @@ export const Header = () => {
         {/* Header Actions & Mobile Toggle */}
         <div className="flex items-center gap-3">
           <a
-            href="/Kashif_Ullah_Jan_CV.pdf"
+            href={getMediaUrl('/Kashif_Ullah_Jan_CV.pdf')}
             download="Kashif_Ullah_Jan_CV.pdf"
             className="hidden lg:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-900/80 hover:bg-sky-950/60 text-slate-200 hover:text-sky-300 border border-slate-700/80 hover:border-sky-400/80 font-semibold text-xs transition-all shadow-2xs"
             title="Download Kashif Ullah Jan's Official CV (PDF)"
@@ -137,7 +138,7 @@ export const Header = () => {
 
           <div className="pt-2 px-2 space-y-2">
             <a
-              href="/Kashif_Ullah_Jan_CV.pdf"
+              href={getMediaUrl('/Kashif_Ullah_Jan_CV.pdf')}
               download="Kashif_Ullah_Jan_CV.pdf"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 text-slate-200 font-semibold text-sm border border-slate-800"

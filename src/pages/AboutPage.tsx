@@ -15,6 +15,7 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { getMediaUrl } from '../utils/media';
 
 export const AboutPage = () => {
   return (
@@ -76,7 +77,7 @@ export const AboutPage = () => {
                 <span>Explore 3D Portfolio</span>
               </Link>
               <a
-                href="/Kashif_Ullah_Jan_CV.pdf"
+                href={getMediaUrl('/Kashif_Ullah_Jan_CV.pdf')}
                 download="Kashif_Ullah_Jan_CV.pdf"
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-900/80 hover:bg-sky-950/60 text-slate-200 hover:text-sky-300 border border-slate-700/80 hover:border-sky-400 font-semibold text-sm transition-all shadow-2xs group"
               >
@@ -608,7 +609,7 @@ export const AboutPage = () => {
 
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href="/Kashif_Ullah_Jan_CV.pdf"
+              href={getMediaUrl('/Kashif_Ullah_Jan_CV.pdf')}
               download="Kashif_Ullah_Jan_CV.pdf"
               className="px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm border border-slate-700 shadow-md transition-all active:scale-98 flex items-center gap-2"
             >

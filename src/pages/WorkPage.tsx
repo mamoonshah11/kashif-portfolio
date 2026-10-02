@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { PROJECTS_DATA } from '../data/projects';
 import type { ProjectItem } from '../types';
 import { ProjectModal } from '../components/ProjectModal';
+import { getMediaUrl } from '../utils/media';
 import {
   Sparkles,
   ArrowRight,
@@ -141,7 +142,7 @@ export const WorkPage = () => {
                 {project.coverMedia.type === 'video' ? (
                   <div className="w-full h-full relative">
                     <video
-                      src={`${project.coverMedia.url}#t=0.5`}
+                      src={`${getMediaUrl(project.coverMedia.url)}#t=0.5`}
                       preload="metadata"
                       muted
                       playsInline
@@ -155,7 +156,7 @@ export const WorkPage = () => {
                   </div>
                 ) : (
                   <img
-                    src={project.coverMedia.url}
+                    src={getMediaUrl(project.coverMedia.url)}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
                     loading="lazy"

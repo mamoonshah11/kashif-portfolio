@@ -13,6 +13,7 @@ import {
 import { Hero3DViewer } from '../components/Hero3DViewer';
 import { PROJECTS_DATA } from '../data/projects';
 import { ProjectModal } from '../components/ProjectModal';
+import { getMediaUrl } from '../utils/media';
 import type { ProjectItem } from '../types';
 
 const LinkedinIcon = ({ className = 'w-3.5 h-3.5' }: { className?: string }) => (
@@ -92,7 +93,7 @@ export const HomePage = () => {
 
               {/* Download CV button */}
               <a
-                href="/Kashif_Ullah_Jan_CV.pdf"
+                href={getMediaUrl('/Kashif_Ullah_Jan_CV.pdf')}
                 download="Kashif_Ullah_Jan_CV.pdf"
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-900/80 hover:bg-sky-950/60 text-slate-200 hover:text-sky-300 border border-slate-700/80 hover:border-sky-400 font-semibold text-sm transition-all shadow-2xs group"
                 title="Download official CV (PDF)"
@@ -212,7 +213,7 @@ export const HomePage = () => {
                   {project.coverMedia.type === 'video' ? (
                     <div className="w-full h-full relative">
                       <video
-                        src={`${project.coverMedia.url}#t=0.5`}
+                        src={`${getMediaUrl(project.coverMedia.url)}#t=0.5`}
                         preload="metadata"
                         muted
                         playsInline
@@ -226,7 +227,7 @@ export const HomePage = () => {
                     </div>
                   ) : (
                     <img
-                      src={project.coverMedia.url}
+                      src={getMediaUrl(project.coverMedia.url)}
                       alt={project.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
                       loading="lazy"
