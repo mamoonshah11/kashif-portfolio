@@ -30,3 +30,6 @@ dist-ssr
 # Raw media files exceeding GitHub's 100MB limit
 **/Forever - Anno Domini Beats.mp4
 **/Tutorial_(2).avi
+
+# Local safe backups
+media_originals_backup/

@@ -564,6 +564,9 @@ function generateTypeScript() {
 
     const mediaFiles = allFiles
       .filter(f => !f.toLowerCase().endsWith('.txt'))
+      .filter(f => !f.includes('Forever - Anno Domini Beats'))
+      .filter(f => !f.includes('Tutorial_(2).avi'))
+      .filter(f => !f.includes('.bak') && !f.includes('__temp_opt'))
       .sort((a, b) => {
         // Put coverFileName first if matches
         if (cfg.coverFileName) {

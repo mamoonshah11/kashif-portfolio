@@ -275,41 +275,41 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "saga-of-wings-media-3",
         "name": "1St",
-        "url": "/projects-media/Saga%20of%20wings%202/1St.mkv",
+        "url": "/projects-media/Saga%20of%20wings%202/1St.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Saga of Wings — Mobile Fantasy Game 3D Assets & Creatures — 1St"
       },
       {
         "id": "saga-of-wings-media-4",
         "name": "2nd",
-        "url": "/projects-media/Saga%20of%20wings%202/2nd.mkv",
+        "url": "/projects-media/Saga%20of%20wings%202/2nd.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Saga of Wings — Mobile Fantasy Game 3D Assets & Creatures — 2nd"
       },
       {
         "id": "saga-of-wings-media-5",
         "name": "3rd",
-        "url": "/projects-media/Saga%20of%20wings%202/3rd.mkv",
+        "url": "/projects-media/Saga%20of%20wings%202/3rd.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Saga of Wings — Mobile Fantasy Game 3D Assets & Creatures — 3rd"
       },
       {
         "id": "saga-of-wings-media-6",
         "name": "4th",
-        "url": "/projects-media/Saga%20of%20wings%202/4th.mkv",
+        "url": "/projects-media/Saga%20of%20wings%202/4th.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Saga of Wings — Mobile Fantasy Game 3D Assets & Creatures — 4th"
       },
       {
         "id": "saga-of-wings-media-7",
         "name": "5th",
-        "url": "/projects-media/Saga%20of%20wings%202/5th.mkv",
+        "url": "/projects-media/Saga%20of%20wings%202/5th.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Saga of Wings — Mobile Fantasy Game 3D Assets & Creatures — 5th"
       },
       {
@@ -668,9 +668,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "joygram-kids-animated-world-media-21",
         "name": "Bluey Update",
-        "url": "/projects-media/Joygram/Bluey%20Update.mkv",
+        "url": "/projects-media/Joygram/Bluey%20Update.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Joygram — Stylized 3D Animated Characters & Whimsical Worlds — Bluey Update"
       },
       {
@@ -1196,9 +1196,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "million-dollar-baby-environments-media-2",
         "name": "0001 0200",
-        "url": "/projects-media/Million%20dollar%20baby/0001-0200.mkv",
+        "url": "/projects-media/Million%20dollar%20baby/0001-0200.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Million Dollar Baby — Cyberpunk Game Environments & Urban Rooftops — 0001 0200"
       },
       {
@@ -1226,7 +1226,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
         "caption": "Million Dollar Baby — Cyberpunk Game Environments & Urban Rooftops — dragon market1"
       },
       {
-        "id": "million-dollar-baby-environments-media-7",
+        "id": "million-dollar-baby-environments-media-6",
         "name": "new (1)",
         "url": "/projects-media/Million%20dollar%20baby/new%20(1).png",
         "type": "image",
@@ -1234,7 +1234,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
         "caption": "Million Dollar Baby — Cyberpunk Game Environments & Urban Rooftops — new (1)"
       },
       {
-        "id": "million-dollar-baby-environments-media-8",
+        "id": "million-dollar-baby-environments-media-7",
         "name": "Rooftop Tunnel ",
         "url": "/projects-media/Million%20dollar%20baby/Rooftop%20Tunnel%20.mp4",
         "type": "video",
@@ -1242,7 +1242,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
         "caption": "Million Dollar Baby — Cyberpunk Game Environments & Urban Rooftops — Rooftop Tunnel "
       },
       {
-        "id": "million-dollar-baby-environments-media-9",
+        "id": "million-dollar-baby-environments-media-8",
         "name": "Rooftop",
         "url": "/projects-media/Million%20dollar%20baby/Rooftop.mp4",
         "type": "video",
@@ -1250,7 +1250,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
         "caption": "Million Dollar Baby — Cyberpunk Game Environments & Urban Rooftops — Rooftop"
       },
       {
-        "id": "million-dollar-baby-environments-media-10",
+        "id": "million-dollar-baby-environments-media-9",
         "name": "Screenshot 2025 11 26 093858",
         "url": "/projects-media/Million%20dollar%20baby/Screenshot%202025-11-26%20093858.png",
         "type": "image",
@@ -1258,7 +1258,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
         "caption": "Million Dollar Baby — Cyberpunk Game Environments & Urban Rooftops — Screenshot 2025 11 26 093858"
       },
       {
-        "id": "million-dollar-baby-environments-media-11",
+        "id": "million-dollar-baby-environments-media-10",
         "name": "Screenshot 2026 01 19 155418",
         "url": "/projects-media/Million%20dollar%20baby/Screenshot%202026-01-19%20155418.png",
         "type": "image",
@@ -1266,7 +1266,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
         "caption": "Million Dollar Baby — Cyberpunk Game Environments & Urban Rooftops — Screenshot 2026 01 19 155418"
       },
       {
-        "id": "million-dollar-baby-environments-media-12",
+        "id": "million-dollar-baby-environments-media-11",
         "name": "Screenshot 2026 01 19 155428",
         "url": "/projects-media/Million%20dollar%20baby/Screenshot%202026-01-19%20155428.png",
         "type": "image",
@@ -1900,9 +1900,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "building-architectural-complex-media-2",
         "name": "0001 0075",
-        "url": "/projects-media/Building/0001-0075.mkv",
+        "url": "/projects-media/Building/0001-0075.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Modern Commercial Architectural Complex & Facade Simulation — 0001 0075"
       },
       {
@@ -2913,9 +2913,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "wallpaper-motion-loops-media-10",
         "name": "Scifi Tunnel 10001 0200",
-        "url": "/projects-media/Wallpaper/Scifi%20Tunnel%2010001-0200.mkv",
+        "url": "/projects-media/Wallpaper/Scifi%20Tunnel%2010001-0200.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Scifi Tunnel 10001 0200"
       },
       {
@@ -2929,33 +2929,33 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "wallpaper-motion-loops-media-12",
         "name": "Wallpaper 170001 0300",
-        "url": "/projects-media/Wallpaper/Wallpaper%20170001-0300.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%20170001-0300.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 170001 0300"
       },
       {
         "id": "wallpaper-motion-loops-media-13",
         "name": "Wallpaper 220001 0300",
-        "url": "/projects-media/Wallpaper/Wallpaper%20220001-0300.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%20220001-0300.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 220001 0300"
       },
       {
         "id": "wallpaper-motion-loops-media-14",
         "name": "wallpaper 230001 0300",
-        "url": "/projects-media/Wallpaper/wallpaper%20230001-0300.mkv",
+        "url": "/projects-media/Wallpaper/wallpaper%20230001-0300.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — wallpaper 230001 0300"
       },
       {
         "id": "wallpaper-motion-loops-media-15",
         "name": "Wallpaper 24 Video0001 0300",
-        "url": "/projects-media/Wallpaper/Wallpaper%2024%20Video0001-0300.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%2024%20Video0001-0300.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 24 Video0001 0300"
       },
       {
@@ -2969,17 +2969,17 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "wallpaper-motion-loops-media-17",
         "name": "Wallpaper 350001 0200",
-        "url": "/projects-media/Wallpaper/Wallpaper%20350001-0200.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%20350001-0200.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 350001 0200"
       },
       {
         "id": "wallpaper-motion-loops-media-18",
         "name": "Wallpaper 370001 0200",
-        "url": "/projects-media/Wallpaper/Wallpaper%20370001-0200.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%20370001-0200.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 370001 0200"
       },
       {
@@ -3009,33 +3009,33 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "wallpaper-motion-loops-media-22",
         "name": "Wallpaper 60001 0250",
-        "url": "/projects-media/Wallpaper/Wallpaper%2060001-0250.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%2060001-0250.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 60001 0250"
       },
       {
         "id": "wallpaper-motion-loops-media-23",
         "name": "Wallpaper 80001 0060",
-        "url": "/projects-media/Wallpaper/Wallpaper%2080001-0060.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%2080001-0060.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 80001 0060"
       },
       {
         "id": "wallpaper-motion-loops-media-24",
         "name": "Wallpaper 9 with clock0001 0300",
-        "url": "/projects-media/Wallpaper/Wallpaper%209%20with%20clock0001-0300.mkv",
+        "url": "/projects-media/Wallpaper/Wallpaper%209%20with%20clock0001-0300.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — Wallpaper 9 with clock0001 0300"
       },
       {
         "id": "wallpaper-motion-loops-media-25",
         "name": "walpaper 9 re render0001 0239",
-        "url": "/projects-media/Wallpaper/walpaper%209%20re%20render0001-0239.mkv",
+        "url": "/projects-media/Wallpaper/walpaper%209%20re%20render0001-0239.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "3D Motion Design Loops — Sci-Fi Hard-Surface, Omega Watch & Cybernetic Walls — walpaper 9 re render0001 0239"
       }
     ]
@@ -3113,17 +3113,17 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "other-specialized-3d-projects-media-2",
         "name": "0001 0080",
-        "url": "/projects-media/Other%20Projects/0001-0080.mkv",
+        "url": "/projects-media/Other%20Projects/0001-0080.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Specialty 3D Showcase — Robotics, Drone Systems & Fluid Dynamics — 0001 0080"
       },
       {
         "id": "other-specialized-3d-projects-media-3",
         "name": "0059.png0001 0089",
-        "url": "/projects-media/Other%20Projects/0059.png0001-0089.mkv",
+        "url": "/projects-media/Other%20Projects/0059.png0001-0089.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Specialty 3D Showcase — Robotics, Drone Systems & Fluid Dynamics — 0059.png0001 0089"
       },
       {
@@ -3153,9 +3153,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "other-specialized-3d-projects-media-7",
         "name": "2nd0001 0080",
-        "url": "/projects-media/Other%20Projects/2nd0001-0080.mkv",
+        "url": "/projects-media/Other%20Projects/2nd0001-0080.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Specialty 3D Showcase — Robotics, Drone Systems & Fluid Dynamics — 2nd0001 0080"
       },
       {
@@ -3185,9 +3185,9 @@ export const PROJECTS_DATA: ProjectItem[] = [
       {
         "id": "other-specialized-3d-projects-media-11",
         "name": "Dron",
-        "url": "/projects-media/Other%20Projects/Dron.mkv",
+        "url": "/projects-media/Other%20Projects/Dron.mp4",
         "type": "video",
-        "extension": "mkv",
+        "extension": "mp4",
         "caption": "Specialty 3D Showcase — Robotics, Drone Systems & Fluid Dynamics — Dron"
       },
       {
@@ -3407,19 +3407,19 @@ export const PROJECTS_DATA: ProjectItem[] = [
         "caption": "Specialty 3D Showcase — Robotics, Drone Systems & Fluid Dynamics — Steampunk"
       },
       {
-        "id": "other-specialized-3d-projects-media-40",
+        "id": "other-specialized-3d-projects-media-39",
         "name": "water0060 0200",
-        "url": "/projects-media/Other%20Projects/water0060-0200.avi",
+        "url": "/projects-media/Other%20Projects/water0060-0200.mp4",
         "type": "video",
-        "extension": "avi",
+        "extension": "mp4",
         "caption": "Specialty 3D Showcase — Robotics, Drone Systems & Fluid Dynamics — water0060 0200"
       },
       {
-        "id": "other-specialized-3d-projects-media-41",
+        "id": "other-specialized-3d-projects-media-40",
         "name": "water01 0060",
-        "url": "/projects-media/Other%20Projects/water01-0060.avi",
+        "url": "/projects-media/Other%20Projects/water01-0060.mp4",
         "type": "video",
-        "extension": "avi",
+        "extension": "mp4",
         "caption": "Specialty 3D Showcase — Robotics, Drone Systems & Fluid Dynamics — water01 0060"
       }
     ]
