@@ -92,9 +92,11 @@ export const AboutPage = () => {
             <div className="card-elevation rounded-3xl p-6 sm:p-8 bg-slate-900/60 border border-slate-800 space-y-6">
               <div className="flex items-center justify-between border-b border-slate-800 pb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-sky-500 to-sky-700 text-white flex items-center justify-center font-black text-xl shadow-md shadow-sky-500/25">
-                    KJ
-                  </div>
+                  <img
+                    src={getMediaUrl('/kashif-profile.jpg')}
+                    alt="Kashif Ullah Jan"
+                    className="w-12 h-12 rounded-2xl object-cover object-top border border-sky-400/50 shadow-md shadow-sky-500/25"
+                  />
                   <div>
                     <h3 className="font-bold text-white leading-tight">Kashif Ullah Jan</h3>
                     <span className="text-xs text-sky-400 font-medium">3D Artist &amp; Game Designer</span>

@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 import {
   ArrowRight,
   ArrowUpRight,
-  Box,
   FileDown,
   Sparkles,
   PlaySquare,
   Globe,
-  Play
+  Play,
+  ShieldCheck
 } from 'lucide-react';
-import { Hero3DViewer } from '../components/Hero3DViewer';
 import { PROJECTS_DATA } from '../data/projects';
 import { ProjectModal } from '../components/ProjectModal';
 import { getMediaUrl } from '../utils/media';
@@ -152,22 +151,65 @@ export const HomePage = () => {
 
           </div>
 
-          {/* Right Column: Interactive 3D Hero Viewport */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative rounded-3xl bg-slate-900/60 backdrop-blur-md border border-sky-500/20 shadow-2xl shadow-sky-950/50 p-2 sm:p-4 overflow-hidden">
+          {/* Right Column: Kashif Ullah Jan Profile Showcase */}
+          <div className="lg:col-span-5 relative group">
+            {/* Ambient Background Aura */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-sky-500/30 via-cyan-400/20 to-blue-600/30 rounded-3xl blur-xl opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" />
+            
+            <div className="relative rounded-3xl bg-slate-900/80 backdrop-blur-xl border border-sky-500/30 shadow-2xl shadow-sky-950/80 p-3 sm:p-4 overflow-hidden">
               {/* Studio Corner Watermark */}
-              <div className="absolute top-4 right-4 z-20 hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-950/80 text-sky-300 border border-sky-500/30 text-[11px] font-mono font-medium backdrop-blur-md">
-                <Box className="w-3 h-3 text-sky-400" />
-                <span>INTERACTIVE 3D VIEWPORT</span>
+              <div className="absolute top-6 right-6 z-20 flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-950/85 text-sky-300 border border-sky-500/40 text-[11px] font-mono font-semibold backdrop-blur-md shadow-lg">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span>LEAD 3D ARTIST</span>
               </div>
 
-              {/* Three.js Character Model & Orbit Canvas */}
-              <Hero3DViewer />
+              {/* Main Profile Image with Styling */}
+              <div className="relative aspect-[4/5] sm:h-[460px] md:h-[480px] w-full rounded-2xl overflow-hidden bg-slate-950">
+                <img
+                  src={getMediaUrl('/kashif-profile.jpg')}
+                  alt="Kashif Ullah Jan — Professional 3D Artist & Game Designer"
+                  className="w-full h-full object-cover object-top filter brightness-[1.02] contrast-[1.02] group-hover:scale-[1.02] transition-transform duration-700 ease-out"
+                />
 
-              {/* Helper caption */}
-              <div className="pt-2 pb-1 text-center">
-                <span className="text-[11px] text-slate-400 font-medium">
-                  &bull; Drag to orbit 360&deg; &bull; Toggle Wireframe / Clay sculpt above &bull;
+                {/* Subtle cinematic gradient fade at bottom */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#030712] via-[#030712]/30 to-transparent pointer-events-none" />
+
+                {/* Floating Glassmorphic Identity Card at bottom */}
+                <div className="absolute bottom-3 left-3 right-3 p-3.5 sm:p-4 rounded-xl bg-slate-950/85 backdrop-blur-md border border-slate-700/80 shadow-xl space-y-2">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-base sm:text-lg font-bold text-white tracking-tight flex items-center gap-1.5">
+                        <span>Kashif Ullah Jan</span>
+                        <ShieldCheck className="w-4 h-4 text-sky-400" />
+                      </h3>
+                      <p className="text-xs text-sky-300/90 font-medium">
+                        3D Character Sculptor &amp; Environment Designer
+                      </p>
+                    </div>
+                    <span className="px-2.5 py-1 rounded-md bg-sky-950/80 border border-sky-500/40 text-sky-300 text-[10px] font-mono font-semibold">
+                      GPA 3.80 CS
+                    </span>
+                  </div>
+
+                  {/* Micro Tool Badges */}
+                  <div className="flex flex-wrap items-center gap-1.5 pt-1 border-t border-slate-800/80">
+                    <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-900 text-slate-300 border border-slate-800">Blender</span>
+                    <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-900 text-slate-300 border border-slate-800">Substance 3D</span>
+                    <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-900 text-sky-300 border border-sky-900/60">Unreal Engine</span>
+                    <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-900 text-slate-300 border border-slate-800">Unity</span>
+                    <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-slate-900 text-slate-300 border border-slate-800">3D Printing STL</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Status / Signature Footer */}
+              <div className="pt-2.5 pb-1 px-1 flex items-center justify-between text-xs">
+                <span className="text-slate-400 flex items-center gap-1.5">
+                  <Sparkles className="w-3.5 h-3.5 text-sky-400" />
+                  <span>200+ Production 3D Models Delivered</span>
+                </span>
+                <span className="text-sky-400 font-mono text-[11px] font-semibold">
+                  Warsak Rd, Peshawar
                 </span>
               </div>
             </div>
